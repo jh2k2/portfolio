@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+.title-text {
+  font-family: momcake;
+  font-size: 40px;
+  width: 100%;
+}
+
+.body-text {
+  font-family: lato-regular;
+  font-size: 16px;
+  width: 100%;
+  font-weight: lighter;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.right-col {
+  width: calc(100% - 19rem);
+  margin-left: 19rem;
+}
+
+.left-col {
+  font-family: HashedBrown;
+  position: fixed;
+  height: 170vh;
+  min-width: 19rem;
+  width: 19rem;
+  left: 0;
+  top: 0;
+}
+
+@font-face {
+  font-family: HashedBrown;
+  src: url(assets/font/HashedBrowns-WyJgn.ttf)
+}
+
+@font-face {
+  font-family: lato-regular;
+  src: url(assets/font/Lato-Regular.ttf)
+}
+
+@font-face {
+  font-family: momcake;
+  src: url(assets/font/MomcakeBold-WyonA.otf)
+}

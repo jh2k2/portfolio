@@ -1,0 +1,13 @@
+ul {
+  margin-left: -20px;
+}
+
+.hori-line {
+  color: black;
+  width: auto;
+}
+
+li {
+  float: left;
+  width: 18rem;
+}
